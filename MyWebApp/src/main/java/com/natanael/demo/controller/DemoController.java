@@ -8,7 +8,7 @@ public class DemoController {
 
 	@RequestMapping("home")
 	public String DemoPage(){
-		
+		 System.out.println("Hello");
 		return "Demo.jsp";
 	}
 }
